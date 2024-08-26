@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prueba final etapa 2 ALURA</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <div class="patronMadre">
+            <div class="logoEncabezado">
+                <img src="./recursos/sun 1.0.png" class="sunLogoEncabezado">
+                <h1 class="tituloLogoEncabezado">Bienvenido al encriptador</h1>
+                <h2 class="tituloBetaLogoEncabezado">Alabado sea el sol</h2>
+            </div>
+            <div class="bloqueDer">
+                <img id="astoraSolareBloqueDer" src="./recursos/artorias-of-the-abyss-solaire-of-astora-dark-souls-.png">
+                <h1 id="texto" >Ningun mesaje fue encontrado</h1>
+                <textarea id="textoBase" rows="8" cols="80">Ingrese el texto que desees conocer</textarea>
+                <button onclick="copy()" class="button" id="button_copiar"  value="none"> Copiar</button>
+                
+            </div>
+            <div class="bloqueIzq">
+                <input class="textInput" id="txtEncrip" type="text" placeholder="Que deseas ocultar hoy?...">
+            </div>
+            <div class="botonera">
+                <p>solo minusculas y sin acentos</p>
+                <button onclick= "encriptar()"; class="button" id="button_encriptar">Encriptar</button>
+                <button onclick= "desencriptar()"; class="button" id="button_desencriptar" > Liberar</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
